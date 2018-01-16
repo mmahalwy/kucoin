@@ -194,6 +194,10 @@ class Kucoin {
   getCoins() {
     return this.request('get', '/market/open/coins-list');
   }
+
+  getKline(params = {}) {
+    return this.request('get', '/open/kline', params);
+  }
 }
 
 module.exports = Kucoin;
