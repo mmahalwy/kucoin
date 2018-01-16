@@ -1,0 +1,21 @@
+{
+  "name": "kucoin",
+  "version": "1.0.0",
+  "description": "Kucoin API wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "lodash": "^4.17.4",
+    "qs": "^6.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
